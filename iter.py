@@ -5,7 +5,7 @@ nested_list = [
     ['d', 'e', 'f', 'h', False],
     [1, 2, None],
 ]
-@param_logging('logs/logs.log')
+@param_logging(path='logs/logs.log')
 class FlatIterator:
 
     def __init__(self, my_list):

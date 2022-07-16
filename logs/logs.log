@@ -7,3 +7,9 @@
 2022-07-16 21:59:19.908693 - flat_generator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <generator object flat_generator at 0x7f2caacb9af0> 
 2022-07-16 22:02:38.630073 - FlatIterator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <__main__.FlatIterator object at 0x7f06bdc2bf70>
 2022-07-16 22:02:38.631172 - FlatIterator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <__main__.FlatIterator object at 0x7f06bdc2bf70> 
+2022-07-16 22:14:18.716221 - FlatIterator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <__main__.FlatIterator object at 0x7f250b6076a0> 
+2022-07-16 22:14:18.718338 - FlatIterator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <__main__.FlatIterator object at 0x7f250b6076a0> 
+2022-07-16 22:14:50.908355 - flat_generator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <generator object flat_generator at 0x7ff3c1b21af0> 
+2022-07-16 22:14:50.909514 - flat_generator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <generator object flat_generator at 0x7ff3c1b21af0> 
+2022-07-16 22:15:03.732995 - FlatIterator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <__main__.FlatIterator object at 0x7fe6bf3436a0> 
+2022-07-16 22:15:03.734337 - FlatIterator - ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) & {} - <__main__.FlatIterator object at 0x7fe6bf3436a0> 

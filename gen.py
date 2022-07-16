@@ -6,7 +6,7 @@ nested_list = [
     [1, 2, None],
 ]
 
-@param_logging('logs/logs.log')
+@param_logging(path='logs/logs.log')
 def flat_generator(my_list):
     i = 0
     while i < len(my_list):
