@@ -1,10 +1,11 @@
+from logger import param_logging
 
 nested_list = [
     ['a', 'b', 'c'],
     ['d', 'e', 'f', 'h', False],
     [1, 2, None],
 ]
-
+@param_logging('logs/logs.log')
 class FlatIterator:
 
     def __init__(self, my_list):
