@@ -5,7 +5,7 @@ nested_list = [
     [1, 2, None],
 ]
 
-def my_range(my_list):
+def flat_generator(my_list):
     i = 0
     while i < len(my_list):
         i += 1
@@ -15,6 +15,14 @@ def my_range(my_list):
             j += 1
 
 
+def flat_list():
+    item_list = [item for item in flat_generator(nested_list)]
+    print()
+    return item_list
+
+
 if __name__ == '__main__':
-    for item in my_range(nested_list):
+    for item in flat_generator(nested_list):
         print(item)
+
+    print(flat_list())
